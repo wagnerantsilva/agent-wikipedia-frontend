@@ -1,0 +1,46 @@
+export const MaterialTheme = {
+  COLORS: {
+    DEFAULT: "#DCDCDC",
+    PRIMARY: "#9C27B0",
+    LABEL: "#FE2472",
+    INFO: "#00BCD4",
+    ERROR: "#F44336",
+    SUCCESS: "#4CAF50",
+    WARNING: "#FF9800",
+    MUTED: "#979797",
+
+    INPUT: "#DCDCDC",
+    ACTIVE: "#9C27B0",
+    BUTTON_COLOR: "#9C27B0",
+
+    PLACEHOLDER: "#9B9B9B",
+
+    WHITE: "#FFFFFF",
+    BLACK: "#000000",
+
+    VERDICT_VALIDATED: "#2E7D32",
+    VERDICT_REFUTED: "#C62828",
+    VERDICT_INCONCLUSIVE: "#EF6C00",
+    VERDICT_AMBIGUOUS: "#1565C0",
+
+    CARD_BACKGROUND: "#FFFFFF",
+    EVIDENCE_HIGHLIGHT: "#F1F8E9",
+
+    BACKGROUND: "#F5F5F5",
+    BORDER: "#E0E0E0"
+  },
+
+  SIZES: {
+    BASE: 8,
+    FONT: 14,
+    RADIUS: 8,
+
+    CARD_ROUNDNESS: 8,
+    BLOCK_SHADOW_RADIUS: 4,
+
+    BUTTON_HEIGHT: 48,
+    INPUT_HEIGHT: 48
+  }
+};
+
+export default MaterialTheme;
